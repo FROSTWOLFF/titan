@@ -1,0 +1,90 @@
+{
+    "project": "Project Titan",
+    "version": "1.0.0",
+    "description": "Mapping of all documentation files for navigation and LLM context.",
+    "root": ".agent/docs",
+    "structure": {
+        "00_CORE_CONTEXT": {
+            "description": "Foundational documents and mission alignment.",
+            "files": [
+                {
+                    "name": "DOC-000_Product_Vision.md",
+                    "purpose": "Mission, pain points, and north star metric."
+                },
+                {
+                    "name": "IMMUTABLE_LAWS.md",
+                    "purpose": "Critical logic and structural laws."
+                },
+                {
+                    "name": "Lead_User_Persona_Frank.md",
+                    "purpose": "Target application user profile (NOT an AI persona)."
+                }
+            ]
+        },
+        "01_ENGINEERING_HANDBOOK": {
+            "description": "Technical standards and architecture protocols.",
+            "files": [
+                {
+                    "name": "DOC-001_Tech_Stack.md",
+                    "purpose": "Global technology choices and forbidden stack."
+                },
+                {
+                    "name": "DOC-002_System_Architecture.md",
+                    "purpose": "High-level service and communication map."
+                },
+                {
+                    "name": "DOC-003_Database_Standards.md",
+                    "purpose": "Prisma, naming, and data types."
+                },
+                {
+                    "name": "DOC-004_API_Interface_Guidelines.md",
+                    "purpose": "REST patterns and response structures."
+                },
+                {
+                    "name": "DOC-005_Frontend_Module_Architecture.md",
+                    "purpose": "React component and state standards."
+                },
+                {
+                    "name": "DOC-006_Security_Compliance_Audit_Protocols.md",
+                    "purpose": "RBAC and record hashing logic."
+                }
+            ]
+        },
+        "02_FEATURE_SETS": {
+            "description": "Detailed module architecture and specifications.",
+            "Phases": {
+                "01_FOUNDATIONS": {
+                    "MOD-1.0_Architecture.md": "Core structures for Trainings, Roles, and Areas.",
+                    "SPEC-1.1_Trainings.md": "Course library and versioning.",
+                    "SPEC-1.2_Roles.md": "Role requirements and mapping.",
+                    "SPEC-1.3_Areas.md": "Project location and hierarchy."
+                },
+                "02_OPERATIONS": {
+                    "MOD-2.0_Architecture.md": "Compliance tracking and personnel profiles.",
+                    "SPEC-2.1_Personnel.md": "Worker data and lifecycle.",
+                    "SPEC-2.2_Training-Records.md": "Record integrity and archiving.",
+                    "SPEC-2.3_Compliance.md": "Traffic light status engine."
+                },
+                "03_LOGISTICS": {
+                    "MOD-3.0_Architecture.md": "Session planning and resource management.",
+                    "SPEC-3.1_Resources.md": "Trainer and venue management.",
+                    "SPEC-3.2_Sessions.md": "Scheduling and attendee selection.",
+                    "SPEC-3.3_Post-Session-Processing.md": "Finalization gate and record generation."
+                },
+                "04_COMPETENCY": {
+                    "MOD-4.0_Architecture.md": "Practical assessment framework.",
+                    "SPEC-4.1_Competency.md": "Verification records and methods."
+                }
+            }
+        },
+        "ASSETS": {
+            "description": "Design system and visual tokens.",
+            "files": [
+                {
+                    "name": "Design_Tokens.md",
+                    "purpose": "Colors, typography, and spacing tokens."
+                }
+            ]
+        }
+    }
+}
