@@ -5,3 +5,4 @@ vite.config.*.timestamp*
 vitest.config.*.timestamp*
 /generated/prisma
 node_modules
+.tanstack/
